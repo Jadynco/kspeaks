@@ -2,7 +2,7 @@
   "name": "ksp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kenyattaspeakz.com/",
+  "homepage": "https://jadynco.github.io/kspeaks/",
 
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
