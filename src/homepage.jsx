@@ -7,7 +7,7 @@ import pic1 from './pic1.png'
 import pic2 from './pic2.png'
 import pic3 from './pic3.png'
 import pic4 from './pic4.png'
-import pic5 from './pic1.png'
+import pic5 from './pic5.png'
 
 
 import emailjs from '@emailjs/browser';
@@ -39,7 +39,7 @@ export default function Homepage(){
             <div className='front'>
            <h1>
             Kenyatta Speaks
-            </h1> 
+            </h1> <br/>
             <h2>
                 Transformative Coach
             </h2>
@@ -48,7 +48,7 @@ export default function Homepage(){
             </h2>
             </div>
         <div className='mission' id='about'>
-            <img src={profileExample} width="45%" height="45%"/>
+            <img src={profileExample} width="50%" height="auto"/>
             
             <p>
             <h1>My Mission?</h1>
@@ -113,11 +113,11 @@ export default function Homepage(){
 
 
 <div class="scroll-container">
-  <img src={pic1} alt="Cinque Terre" width="500" height="350"/>
-  <img src={pic2} alt="Forest" width="500" height="350"/>
-  <img src={pic3} alt="Northern Lights" width="500" height="350"/>
-  <img src={pic4} alt="Mountains" width="500" height="350"/>
-  <img src={pic5} alt="Mountains" width="500" height="350"/>
+  <img src={pic1} alt="pic1" width="500" height="350"/>
+  <img src={pic2} alt="pic2" width="500" height="350"/>
+  <img src={pic3} alt="pic3" width="500" height="350"/>
+  <img src={pic4} alt="pic4" width="500" height="350"/>
+  <img src={pic5} alt="pic5" width="500" height="350"/>
 </div>
    
 <div className='container'  id='contact'> 
