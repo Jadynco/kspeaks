@@ -48,7 +48,7 @@ export default function Homepage(){
             </h2>
             </div>
         <div className='mission' id='about'>
-            <img src={profileExample} width="50%" height="auto"/>
+            <img src={profileExample}/>
             
             <p>
             <h1>My Mission?</h1>

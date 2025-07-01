@@ -71,30 +71,35 @@ button:hover {
 img {
   border: 1px solid black;
   border-radius: 15px;
-  max-width: 100%;
-  height: auto;
+ 
 }
 
 /* Mission Section */
 .mission {
-  
   display: flex;
   flex-direction: row;
   margin-top: 400px;  
   animation: fadeIn 0.8s ease-in;
-  padding: 200px 300px;
+  padding: 200px 0;
+  height: auto;
 }
 
+ .mission img{
+
+  width:30vw;
+  height: auto;
+ }
 
 .mission p {
   padding-left: 100px ;
+  max-width:800px;
 }
 
 /* Background Image */
 .bgImage {
   margin-top:0;
   width: 99.6vw;
-  height: 30vw;
+  height: 40vw;
   padding-top: 100px;
   background-image: url("public-speaking.png");
   background-size: cover;
@@ -256,8 +261,7 @@ textarea {
   margin: 0 5px;
 }
 
-/* Responsive Media Queries */
-@media (max-width: 430px) {
+@media (max-width: 1200px) {
   * {
     box-sizing: border-box;
   }
@@ -348,6 +352,12 @@ textarea {
   .mission p {
     padding: 0 25px;
   }
+
+  .mission img{
+    width: 300px;
+    height: auto;
+  }
+
   
   /* Background Image */
   .bgImage {
